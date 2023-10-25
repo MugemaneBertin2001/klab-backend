@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({extended: false}))
 
 
 // getRoutes
-app.use("/klab/user",userRoutes)
+app.use("/klab/users",userRoutes)
 
 app.get('/',(req,res)=>{
     res.status(200).json({
